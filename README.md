@@ -1,8 +1,7 @@
-# RegistroAcad
+# RegistroDatosEstudiantes
 Ejercicios de clases de Aplicación de Frameworks Empresariales con Java EE
 
-Sistema pequeño con el que se desarrollan guias para la materia mencionada.
-El sistema consta de una relación Estudiante - Credencial sobre la que se desarrollan distintos ejercicios agrupados en distintos paquetes
+Sistema pequeño que consta de una relación Estudiante - Credencial sobre la que se desarrollan distintos paquetes para demostrar su funcionalidad.
 
 ## Ambiente
 - Java 8
