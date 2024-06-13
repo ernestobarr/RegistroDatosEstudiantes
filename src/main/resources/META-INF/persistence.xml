@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+  <!-- Define Persistence Unit -->
+  <persistence-unit name="EstudiantePU" transaction-type="JTA">
+    <jta-data-source>jdbc/EstudianteDB</jta-data-source>
+    <properties>
+      <property name="eclipselink.logging.level.sql" value="FINE"/>
+      <property name="eclipselink.loggin.parameters" value="true"/>
+    </properties>
+    <!--  <persistence-unit name="EstudiantePU" transaction-type="JTA">
+    <jta-data-source>jdbc/EstudianteDB</jta-data-source>
+    <properties>
+      <property name="eclipselink.logging.level.sql" value="FINE"/>
+      <property name="eclipselink.loggin.parameters" value="true"/>
+    </properties>
+    <persistence-unit name="EstudiantePU" transaction-type="RESOURCE_LOCAL">
+    <non-jta-data-source>java:app/jdbc/registro2</non-jta-data-source>
+    <class>com.ra.registroacademico.entidad.Estudiante</class>
+    <class>com.ra.registroacademico.entidad.Credencial</class>
+    <properties>
+        <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
+        <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/registro2?useSSL=false" />
+        <property name="javax.persistence.jdbc.user" value="root" />
+        <property name="javax.persistence.jdbc.password" value="rootroot" />
+    </properties>
+  </persistence-unit>
+</persistence>    -->
+  </persistence-unit>
+</persistence>

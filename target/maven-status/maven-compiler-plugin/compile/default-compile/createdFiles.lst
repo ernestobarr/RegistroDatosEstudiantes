@@ -1,0 +1,15 @@
+com\mycompany\registroacadweb\jpa\JAXRSConfiguration.class
+com\mycompany\registroacadweb\jpa\Credencial.class
+com\mycompany\registroacadweb\criteria\TestCriteria.class
+com\mycompany\registroacadweb\jpa\resources\JavaEE8Resource.class
+com\mycompany\registroacadweb\web\ConfiguracionBean.class
+Services\IEstudianteServiceLocal.class
+com\mycompany\registroacadweb\jpql\TestJPQL.class
+Services\IEstudianteServiceRemote.class
+ciclovidajpa\PersistenceJPA.class
+com\mycompany\registroacadweb\jpa\Estudiante.class
+com\mycompany\registroacadweb\web\EstudianteBean.class
+Services\EstudianteDaoImpl.class
+com\mycompany\registroacadweb\jpa\EstudianteServlet.class
+Services\IEstudianteDao.class
+Services\EstudianteServiceImpl.class
